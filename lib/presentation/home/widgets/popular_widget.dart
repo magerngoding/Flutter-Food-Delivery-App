@@ -103,20 +103,17 @@ class PopularWidget extends StatelessWidget {
           const SizedBox(
             height: 18.0,
           ),
-          GestureDetector(
-            onTap: () {},
-            child: Container(
-              width: 17,
-              height: 17,
-              decoration: BoxDecoration(
-                color: pinkRedColor,
-                borderRadius: BorderRadius.all(
-                  Radius.circular(2.0),
-                ),
+          Container(
+            width: 17,
+            height: 17,
+            decoration: BoxDecoration(
+              color: pinkRedColor,
+              borderRadius: BorderRadius.all(
+                Radius.circular(2.0),
               ),
-              child: Image.asset(
-                "assets/images/icon_plus.png",
-              ),
+            ),
+            child: Image.asset(
+              "assets/images/icon_plus.png",
             ),
           ),
         ],

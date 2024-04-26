@@ -26,7 +26,7 @@ class MenuWidget extends StatelessWidget {
             boxShadow: [
               BoxShadow(
                 color: Colors.grey[400]!,
-                blurRadius: 1,
+                blurRadius: 20,
                 offset: Offset(0, 1),
               ),
             ],

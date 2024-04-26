@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/presentation/home/pages/get_started_page.dart';
-import 'package:food_delivery_app/presentation/home/pages/home_page.dart';
 import 'package:food_delivery_app/shared/theme.dart';
 
 void main() {
@@ -17,9 +16,7 @@ class MainApp extends StatelessWidget {
         scaffoldBackgroundColor: backgroundColor,
       ),
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: HomePage(),
-      ),
+      home: GetStartedPage(),
     );
   }
 }
